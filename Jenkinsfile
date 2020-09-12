@@ -15,6 +15,7 @@ pipeline {
                 sh 'go build'
                 sh 'go test ./...'
                 sh 'echo test1'
+                sh 'feature-A'
             }
         }
         stage('deploy') {
