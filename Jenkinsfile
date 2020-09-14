@@ -9,6 +9,7 @@ pipeline {
                 docker { 
                     label 'docker'
                     image 'golang:1.14' 
+			// added one to feature
                         }
                              }
             environment {
