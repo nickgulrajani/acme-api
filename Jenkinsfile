@@ -1,5 +1,6 @@
 pipeline {
     agent {label 'docker'} 
+    // added chg one
     stages {
         stage('build and test') {
             agent { 
